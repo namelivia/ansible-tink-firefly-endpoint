@@ -1,4 +1,4 @@
-# Plants Server Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-tink-homebank-endpoint/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-tink-homebank-endpoint/actions/workflows/ansible-lint.yml)
+# Ansible Tink Homebank Endpoint Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-tink-homebank-endpoint/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-tink-homebank-endpoint/actions/workflows/ansible-lint.yml)
 
 ## This is a WIP
 
