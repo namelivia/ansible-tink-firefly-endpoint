@@ -8,6 +8,7 @@
       - host_port is defined
       - tink_client_id is defined
       - tink_client_secret is defined
+      - tink_callback_uri is defined
 
 - name: Create the files directory
   file:
@@ -35,3 +36,4 @@
     env:
       TINK_CLIENT_ID: "{{ tink_client_id }}"
       TINK_CLIENT_SECRET: "{{ tink_client_secret }}"
+      TINK_CALLBACK_URI: "{{ tink_callback_uri }}"

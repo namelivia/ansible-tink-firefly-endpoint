@@ -19,3 +19,4 @@ roles:
  - `host_port` Port to be mapped in the host machine.
  - `tink_client_id` Your Tink Client Id.
  - `tink_client_secret` Your Tink Client Secret.
+ - `tink_callback_uri`: Callback URI for tink.
