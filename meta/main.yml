@@ -1,8 +1,8 @@
 galaxy_info:
-  role_name: tink_homebank_endpoint
+  role_name: tink_firefly_endpoint
   namespace: namelivia
   author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
-  description: Ansible role I use to install and configure namelivia/tink-homebank-endpoint
+  description: Ansible role I use to install and configure namelivia/tink-firefly-endpoint
   license: GPLv2
   min_ansible_version: 2.5.1
   platforms:
