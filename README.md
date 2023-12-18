@@ -1,4 +1,4 @@
-# Ansible Tink Homebank Endpoint Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-tink-firefly-endpoint/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-tink-firefly-endpoint/actions/workflows/ansible-lint.yml)
+# Ansible Tink Firefly Endpoint Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-tink-firefly-endpoint/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-tink-firefly-endpoint/actions/workflows/ansible-lint.yml)
 
 ## This is a WIP
 
@@ -20,3 +20,4 @@ roles:
  - `tink_client_id` Your Tink Client Id.
  - `tink_client_secret` Your Tink Client Secret.
  - `tink_callback_uri`: Callback URI for tink.
+ - `notifications_service_endpoint`: Endpoint for the notifications service.
