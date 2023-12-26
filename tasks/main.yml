@@ -11,6 +11,9 @@
       - tink_callback_uri is defined
       - csv_path is defined
       - notifications_service_endpoint is defined
+      - firefly_personal_access_token is defined
+      - app_url is defined
+      - firefly_url is defined
 
 - name: Create the files directory
   file:
@@ -39,6 +42,7 @@
       - "{{ hostvars[inventory_hostname].working_directory }}{{ application_name }}/csv:/csv"
     networks:
       - name: "bridge"
+      - name: "firefly_network"
     exposed_ports:
       - "80"
     published_ports:
@@ -49,3 +53,6 @@
       TINK_CALLBACK_URI: "{{ tink_callback_uri }}"
       CSV_PATH: "{{ csv_path }}"
       NOTIFICATIONS_SERVICE_ENDPOINT: "{{ notifications_service_endpoint }}"
+      FIREFLY_PERSONAL_ACCESS_TOKEN: "{{ firefly_personal_access_token }}"
+      FIREFLY_URL: "{{ firefly_url }}"
+      APP_URL: "{{ app_url }}"
